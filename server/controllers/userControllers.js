@@ -71,8 +71,10 @@ exports.userOtpSend = async (req, res) => {
                 const mailOptions = {
                     from: process.env.EMAIL,
                     to: email,
-                    subject: "Sending Eamil For Otp Validation",
-                    text: `OTP:- ${OTP}`
+                    subject: "Sending Email For Otp Validation",
+                    text: `Please use the following One Time Password (OTP) to access the chatbot :- ${OTP} , Do not share this Otp with anyone,Thankyou!`
+                    
+                    
                 }
 
 
@@ -96,8 +98,9 @@ exports.userOtpSend = async (req, res) => {
                 const mailOptions = {
                     from: process.env.EMAIL,
                     to: email,
-                    subject: "Sending Eamil For Otp Validation",
-                    text: `OTP:- ${OTP}`
+                    subject: "Sending Email For Otp Validation",
+                    text: `Please use the following One Time Password (OTP) to access the chatbot :- ${OTP}  ,Do not share this Otp with anyone,Thankyou!`
+                    
                 }
 
                 tarnsporter.sendMail(mailOptions, (error, info) => {

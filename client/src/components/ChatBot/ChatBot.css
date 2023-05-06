@@ -5,14 +5,16 @@
 #chatBox{
     position: fixed;
     bottom: 100px;
-    right: 30px;
+    right: 500px;
     box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
     backdrop-filter: blur(30px);
+
     user-select: none;
     background: #fff;
     border: 1px solid rgb(226, 226, 226);
     color: #212121;
     height: 70vh;
+    width: 50vh;
 }
 .react-chatbot-kit-chat-message-container{
     height: 60vh;
@@ -41,12 +43,12 @@
     width: 5px;
 }
 ::-webkit-scrollbar-thumb{
-    background: #0c69e4;
+    background: #000408;
     border-radius: 5px;
 }
 .chatHeading{
     font-size: 20px;
-    color: #0c69e4;
+    color: hsla(213, 82%, 2%, 0.897);
 }
 .chatHead{
     line-height: 8px;
@@ -82,5 +84,5 @@
 }
 .chatting .rmsg .msg{
     color: #fff;
-    background: #0c69e4;
+    background: #00050a;
 }

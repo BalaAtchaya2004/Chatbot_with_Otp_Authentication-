@@ -44,12 +44,11 @@ const Login = () => {
             <section>
                 <div className="form_data">
                     <div className="form_heading">
-                        <h1>Welcome Back, Log In</h1>
-                        <p>Hi, we are you glad you are back. Please login.</p>
+                        <h1> Login</h1>
                     </div>
                     <form>
                         <div className="form_input">
-                            <label htmlFor="email">Email</label>
+                            
                             <input type="email" name="email" id="" onChange={(e) => setEmail(e.target.value)} placeholder='Enter Your Email Address' />
                         </div>
                         <button className='btn' onClick={sendOtp}>Login
@@ -57,7 +56,8 @@ const Login = () => {
                             spiner ? <span><Spinner animation="border" /></span>:""
                         }
                         </button>
-                        <p>Don't have and account <NavLink to="/register">Sign up</NavLink> </p>
+                        <p>Don't have an account</p>
+                        <p> <NavLink to="/register">Sign up here</NavLink> </p>
                     </form>
                 </div>
                 <ToastContainer />

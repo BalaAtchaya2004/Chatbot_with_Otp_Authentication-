@@ -22,7 +22,7 @@ const Dashboard = () => {
   }, [])
   return (
     <div className='d-board'>
-      <h2 >Ask your questions here</h2>
+      <h2 ></h2>
       <ChatBotWidget />
     </div>
 

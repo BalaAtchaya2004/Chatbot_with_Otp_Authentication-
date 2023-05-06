@@ -42,7 +42,8 @@ const Otp = () => {
       <section>
         <div className="form_data">
           <div className="form_heading">
-            <h1>Please Enter Your OTP Here</h1>
+            <h1>Enter Your</h1>
+            <h1> OTP</h1>
           </div>
           <form>
             <div className="form_input">

@@ -1,17 +1,17 @@
 // in config.js
 import { createChatBotMessage } from 'react-chatbot-kit';
 
-const botName = 'Assistant';
+const botName = 'Bot';
 
 const config = {
-  initialMessages: [createChatBotMessage(`Hi! I'm your ${botName}, Enter 'help' to proceed`)],
+  initialMessages: [createChatBotMessage(`Hi!  How may I help you?`)],
   botName: botName,
   customStyles: {
     botMessageBox: {
-      backgroundColor: '#006eff',
+      backgroundColor: 'black',
     },
     chatButton: {
-      backgroundColor: '#006eff',
+      backgroundColor: 'black',
     },
   },
 };
