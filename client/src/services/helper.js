@@ -1,1 +1,1 @@
-export const BACKEND_URL = "http://localhost:4002"
+export const BACKEND_URL = "https://chatbot-server-2v6n.onrender.com/"
