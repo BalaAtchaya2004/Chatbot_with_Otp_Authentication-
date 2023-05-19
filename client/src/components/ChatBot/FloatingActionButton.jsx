@@ -8,10 +8,13 @@ const FloatingActionButton = ( {ShowHideBot, setShowHideBot} ) => {
     return (
     <div>
         <button className={ ShowHideBot ? 'floatBtn' : 'floatBtn activeBtn' } onClick={() => setShowHideBot(!ShowHideBot)}>
+        <p>Click</p>
             {
                 ShowHideBot ? <AiOutlineMessage /> : <AiOutlineClose /> 
             }
+            
         </button>
+        
     </div>
   )
 }

@@ -2,11 +2,11 @@
     display: grid;
     place-items: center;
     position: fixed;
-    bottom: 2px;
-    right: 600px;
+    bottom: px;
+    right: 200px;
     border-radius: 50%;
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 40px;
     cursor: pointer;
     border: 0;
     outline: 0;
