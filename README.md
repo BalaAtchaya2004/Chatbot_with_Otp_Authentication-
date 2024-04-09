@@ -1,11 +1,30 @@
-# `npm install`
-use  the above command on the client side to install dependencies
+# Chatbot_with_Otp_Authentication
 
-# `npm install`
-use  the above command on the server side to install dependencies
+## Setup
 
-# `npm start`
-use  the above command on the client side to run client
+### Client Side
 
-# `node ./app.js`
-use  the above command on the server side to run server
+ Install dependencies:
+
+```bash
+npm install
+```
+
+Start the client:
+
+```bash
+npm start
+```
+
+### Server Side
+
+ Install dependencies:
+
+```bash
+npm install
+```
+
+Run the server:
+```bash
+node ./app.js
+```
