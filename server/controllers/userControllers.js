@@ -3,7 +3,7 @@ const userotp = require("../models/userOtp");
 const nodemailer = require("nodemailer");
 
 
-// email config
+
 const tarnsporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
